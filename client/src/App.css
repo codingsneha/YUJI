@@ -1,0 +1,45 @@
+.scrollbar::-webkit-scrollbar{
+  width: 10px;
+}
+.scrollbar::-webkit-scrollbar-track{
+  @apply bg-slate-100 
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  @apply bg-slate-200 rounded-full
+}
+.chatbot {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.chatbox {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+}
