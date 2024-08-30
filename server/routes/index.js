@@ -6,7 +6,6 @@ const userDetails = require('../controller/userDetails')
 const logout = require('../controller/logout')
 const updateUserDetails = require('../controller/updateUserDetails')
 const searchUser = require('../controller/searchUser')
-const { getChatResponse } = require('../controller/chatbot');
 
 const router = express.Router()
 
@@ -24,7 +23,5 @@ router.get('/logout',logout)
 router.post('/update-user',updateUserDetails)
 //search user
 router.post("/search-user",searchUser)
-//chat with yuu
-router.post('/yuu', getChatResponse);
 
 module.exports = router
