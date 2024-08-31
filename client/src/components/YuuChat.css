@@ -1,0 +1,63 @@
+.yuu-chat {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f4f1; /* Pale green background */
+    color: #5c5544; /* Soothing brown text color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .messages {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
+  .yuu-message {
+    background-color: #e0e0e0; /* Light neutral gray for Yuu messages */
+    color: #3a3a3a; /* Darker text color for contrast */
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    align-self: flex-start;
+  }
+  
+  .user-message {
+    background-color: #c6e0b4; /* Pale green for user messages */
+    color: #2a2a2a; /* Darker text color */
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    align-self: flex-end;
+  }
+  
+  .input-area {
+    display: flex;
+    padding: 10px;
+    background-color: #f8f8f4; /* Very light beige background for input area */
+    border-top: 1px solid #d1d1d1; /* Subtle border for separation */
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    margin-right: 10px;
+  }
+  
+  div1 {
+    background-color: #8a8f7c; /* Soothing brown-green color */
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  div1:hover {
+    background-color: #7a7f6e; /* Darker brown-green on hover */
+  }
+  

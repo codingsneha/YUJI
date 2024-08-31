@@ -7,6 +7,7 @@ import Home from "../pages/Home";
 import MessagePage from "../components/MessagePage";
 import AuthLayouts from "../layout";
 import Forgotpassword from "../pages/Forgotpassword";
+import YuuChat from '../components/YuuChat';
 
 const router = createBrowserRouter([
 {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         {
             path : 'forgot-password',
             element : <AuthLayouts><Forgotpassword/></AuthLayouts>
+        },
+        {
+            path : 'yuu',
+            element : <YuuChat/>
         },
         {
             path : "",
