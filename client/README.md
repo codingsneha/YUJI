@@ -100,8 +100,4 @@ The client will be accessible at `http://localhost:3000`.
   - **`routes/`**: Routing configurations.
 - **`tailwind.config.js`**: Tailwind CSS configuration file.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
