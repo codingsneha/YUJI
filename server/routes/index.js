@@ -7,6 +7,7 @@ const logout = require('../controller/logout')
 const updateUserDetails = require('../controller/updateUserDetails')
 const searchUser = require('../controller/searchUser')
 const yuuRoute = require('./yuuRoute');
+const { getPosts, createPost } = require('../controller/postController');
 
 const router = express.Router()
 
@@ -26,5 +27,8 @@ router.post('/update-user',updateUserDetails)
 router.post("/search-user",searchUser)
 //chat with yuu
 router.use('/yuu', yuuRoute);
+// Post routes
+router.get('/posts', getPosts);
+router.post('/posts', createPost);
 
 module.exports = router

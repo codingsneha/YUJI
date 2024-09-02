@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { IoChatbubbleEllipses } from "react-icons/io5";
 import { FaUserPlus } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink, useNavigate } from 'react-router-dom';
 import { BiLogOut } from "react-icons/bi";
 import Avatar from './Avatar';
 import { useDispatch, useSelector } from 'react-redux';
 import EditUserDetails from './EditUserDetails';
-import Divider from './Divider';
 import { FiArrowUpLeft } from "react-icons/fi";
 import SearchUser from './SearchUser';
 import yuuImage from '../assets/yuu.png';
@@ -71,6 +71,12 @@ const Sidebar = () => {
                     <div title='add friend' onClick={() => setOpenSearchUser(true)} className='w-12 h-12 flex justify-center items-center cursor-pointer hover:bg-gray-200 rounded'>
                         <FaUserPlus size={20} />
                     </div>
+                    <NavLink 
+                        to="/posts" 
+                        className='w-12 h-12 flex justify-center items-center cursor-pointer hover:bg-gray-200 rounded' 
+                        title='Posts'>
+                        <GiHamburgerMenu size={20} />
+                    </NavLink>
                 </div>
 
                 <div className='flex flex-col items-center'>
