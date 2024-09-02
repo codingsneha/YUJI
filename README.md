@@ -5,7 +5,7 @@ Welcome to **YUJI**, a comprehensive platform designed to support well-being and
 
 ## 📄 Project Documentation
 
-For a comprehensive overview of the project, download and review [project overview PDF](docs/project_overview.pdf).
+For a comprehensive overview of the project check out [project overview PDF](docs/project_overview.pdf).
 
 
 ## 📦 Project Structure
