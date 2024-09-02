@@ -87,8 +87,5 @@ The server will be accessible at `http://localhost:8080`.
 - **jsonwebtoken**: For handling JSON Web Tokens.
 - **dotenv**: To load environment variables from a `.env` file.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
