@@ -1,8 +1,7 @@
 # YUJI <img src="https://github.com/user-attachments/assets/10be6554-1a98-473a-80e3-2bcbb5f298e4" width=40px>
 
 
-Welcome to **YUJI**, a comprehensive platform designed to support well-being and foster connection. This project encompasses both the frontend client and backend server, providing a seamless experience for users to manage their wellness, connect with others, and access helpful tools.
-
+Welcome to **YUJI**
 ## 📄 Project Documentation
 
 For a comprehensive overview of the project check out [project overview PDF](docs/project_overview.pdf).
